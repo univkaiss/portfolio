@@ -17,66 +17,56 @@
  */
 export const portafolioData = [
 	{
-		imgSrc: 'https://dt2sdf0db8zob.cloudfront.net/wp-content/uploads/2021/06/copy-of-the-6-best-restaurant-website-templates-1.png',
-		title: 'Restaurant',
-		skills: ['React', 'StyledComponents'],
+		imgSrc: '/img/image.png',
+		title: 'Site d adéquation',
+		skills: ['JavaScript','Python','SQL','PHP','IA'],
 		descripcion:
-			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
+			'Ce site utilise l’intelligence artificielle pour analyser les CV et les offres d’emploi, puis calculer un score d’adéquation. Grâce à des algorithmes avancés de traitement du langage naturel, il compare compétences, expériences et exigences pour offrir des recommandations personnalisées. Une solution innovante pour faciliter le recrutement et optimiser les candidatures.',
 		demoURL: '',
-		repoURL: '',
+		repoURL: 'https://github.com/univkaiss/Adequation-CV-Offre',
 		anim: 'fade-right',
 	},
 	{
-		imgSrc: 'https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/299377097/original/7eb7dcebe244fcf5ad75d92b0969fc116946bd57/create-professional-amd-responsive-wordpress-website.jpg',
-		title: 'E-commerce',
-		skills: ['JavaScript', 'Bootstrap'],
+		imgSrc: '/img/dikj.webp',
+		title: 'Algo de Dikjtra',
+		skills: ['TypeScript', 'Git'],
 		descripcion:
-			' Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
+			'L’objectif de ce projet était d’importer un graphique et d’appliquer l’algorithme de Dijkstra pour déterminer le chemin le plus court, un principe similaire à celui utilisé par Google Maps.',
 		demoURL: '',
-		repoURL: '',
+		repoURL: 'https://github.com/univkaiss/algo-Dikjtra',
 		anim: 'fade-up',
 		averageBrightness: 0.1,
 	},
 	{
-		imgSrc: 'https://i0.wp.com/themes.svn.wordpress.org/cafe-cafeteria/1.5.3/screenshot.png',
-		title: 'Coffe Store',
-		skills: ['React', 'CSS'],
+		imgSrc: '/img/jeuxC.webp',
+		title: 'Jeu X',
+		skills: ['C'],
 		descripcion:
-			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
+			'Le jeu X consiste à placer des pions numérotés sur un plateau. À la fin, une case reste vide et le joueur avec le score le plus bas autour de cette case vide gagne la partie.',
+		demoURL: '',
+		repoURL: 'https://github.com/univkaiss/Jeu-X',
+		anim: 'fade-left',
+	},
+	{
+		imgSrc: '/img/green.png',
+		title: 'Site de mini golf',
+		skills: ['HTML', 'CSS', 'JavaScript'],
+		descripcion:
+			'Le site met en avant le mini-golf Green Cube avec ses parcours uniques et son engagement écoresponsable. Vous y trouverez les horaires, tarifs, et une galerie photos pour découvrir l’univers du lieu. L’objectif est d’informer et d’attirer les visiteurs dans une ambiance conviviale et ludique.',
+		demoURL: '',
+		repoURL: 'https://www.greencubegolf.fr',
+		anim: 'fade-left',
+	},
+	{
+		imgSrc: '/img/infraction.png',
+		title: 'Site de gestion d infraction',
+		skills: ['Node','TypeScript','HTML','CSS'],
+		descripcion:
+			'Ce site web permet de gérer une liste d’infractions tout en assurant sa fiabilité grâce à des tests effectués avec Jest.',
 		demoURL: '',
 		repoURL: '',
 		anim: 'fade-left',
 	},
-	{
-		imgSrc: 'https://www.corse.mx/cdn/shop/files/tienda_lenceria-lenceria-hot_sale-ofertas-mexico-lenceria_seyx-encaje-corse_mx-corse_lenceria_1200_x_560_px_13.png?v=1712270274&width=1500',
-		title: 'Coffe Store',
-		skills: ['React', 'CSS'],
-		descripcion:
-			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
-		demoURL: '',
-		repoURL: '',
-		anim: 'fade-left',
-	},
-	{
-		imgSrc: 'https://i0.wp.com/themes.svn.wordpress.org/cafe-cafeteria/1.5.3/screenshot.png',
-		title: 'Coffe Store',
-		skills: ['React', 'CSS'],
-		descripcion:
-			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
-		demoURL: '',
-		repoURL: '',
-		anim: 'fade-left',
-	},
-	{
-		imgSrc: 'https://dt2sdf0db8zob.cloudfront.net/wp-content/uploads/2021/06/copy-of-the-6-best-restaurant-website-templates-1.png',
-		title: 'Restaurant',
-		skills: ['React', 'StyledComponents'],
-		descripcion:
-			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
-		demoURL: '',
-		repoURL: '',
-		anim: 'fade-right',
-	}
 ];
 
 const skillIcons = {
@@ -88,6 +78,17 @@ const skillIcons = {
 	StyledComponents: 'skill-icons:styledcomponents',
 	Bootstrap: 'skill-icons:bootstrap',
 	Tailwind: 'skill-icons:tailwindcss-dark',
+	HTML: 'skill-icons:html',
+	C: 'skill-icons:c',
+	Python: 'logos:python',
+	Java: 'skill-icons:java',
+	SQL: 'logos:mysql',
+	Git: 'skill-icons:git',
+	Node: 'logos:nodejs-icon',
+	TypeScript: 'skill-icons:typescript',
+	PHP: 'logos:php',
+	IA: 'mdi:robot',
+	
 };
 
 /**

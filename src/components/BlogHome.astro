@@ -12,7 +12,7 @@ const posts = (await getCollection('blog')).sort(
 
 <section id="blog" class="flex flex-col items-center w-full h-full md:max-w-full  justify-center flex-wrap px-4">
 
-  <Title contenido="Mis artículos" margin="2rem"/>
+  <Title contenido="Plus de projet s'ajouterons dans les jours a venir !" margin="2rem"/>
   <div class="flex self-center gap-[20px] justify-center min-w-[30rem]  md:max-w-full flex-wrap flex-col md:flex-row">
     {
       posts.slice(0, 3).map((post) => (
@@ -27,7 +27,10 @@ const posts = (await getCollection('blog')).sort(
       ))
     }
   </div>
+  <!-- 
   <div class="flex justify-center m-5 max-w-full px-3">
     <Boton href="/blog" texto="Ver mas"/>
+  </div>
+  -->
   </div>
 </section>
